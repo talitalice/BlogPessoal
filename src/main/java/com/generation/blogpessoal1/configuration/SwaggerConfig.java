@@ -25,7 +25,7 @@ public class SwaggerConfig {
      * injetado em qualquer ponto da sua aplicação.
      */
 	@Bean
-	public OpenAPI springBlogPessoalOpenAPI() {
+	public OpenAPI springBlogPessoal1OpenAPI() {
 		
         /** Cria um Objeto da Classe OpenAPI, que gera a documentação no Swagger utilizando 
          * a especificação OpenAPI.
@@ -38,14 +38,14 @@ public class SwaggerConfig {
 					.version("v0.0.1")
 				.license(new License()
 					.name("Talita Alice")
-					.url("https://www.linkedin.com/in/talita-alice-santos-4b46bb210/"))
+					.url("https://https://www.linkedin.com/in/talita-alice-santos-4b46bb210/"))
 				.contact(new Contact()
 					.name("Talita Alice")
-					.url("https://github.com/talitalice")
+					.url("https://https://github.com/talitalice")
 					.email("talitalionsmane@gmail.com")))
 				.externalDocs(new ExternalDocumentation()
 					.description("Github")
-					.url("https://github.com/talitalice"));
+					.url("https://https://github.com/talitalice"));
 	}
 
     /**
